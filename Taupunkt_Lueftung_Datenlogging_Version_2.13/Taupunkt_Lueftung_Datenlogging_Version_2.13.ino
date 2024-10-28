@@ -126,7 +126,7 @@ void loop() {
       lcd.setCursor(0,1);
       lcd.print(F("Fehler Sensor 1"));
       fehler = true;
-    }else {
+    } else {
      lcd.setCursor(0,1);
      lcd.print(F("Sensor 1 in Ordnung"));
    }
